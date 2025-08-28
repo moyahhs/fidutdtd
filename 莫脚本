@@ -1077,10 +1077,13 @@ end)
      sound.Parent = game.Workspace 
      sound:Play() 
      end) 
-     local Tab = Window:MakeTab({
-	Name = "🔥自然灾害🔥",
-	Icon = "rbxassetid://7734068321",
-	PremiumOnly = false
+
+   local UITab21 = win:Tab("『自然灾害』",'7734068321'
+ Tab:AddButton({
+  Name = "hua-自然灾害",
+  Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/5fKvum70"))()
+  end
 })
 
 Tab:AddButton({
