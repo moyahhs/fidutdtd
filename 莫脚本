@@ -729,6 +729,12 @@ about:Button("光影浅", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/jHBfJYmS"))()
 end)
 
+local UITab3 = win:Tab("自然灾害",'16060333448')
+
+about:Button("hua自然灾害脚本",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/5fKvum70"))()
+end)
+
 local UITab8 = win:Tab("『无限Robux』",'16060333448')
 
 local about = UITab8:section("可以用？",false)
