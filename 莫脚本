@@ -731,6 +731,8 @@ end)
 
 local UITab3 = win:Tab("自然灾害",'7734068321')
 
+local about = UITab3:section("自然灾害脚本",true)
+
 about:Button("hua自然灾害脚本",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/5fKvum70"))()
 end)
