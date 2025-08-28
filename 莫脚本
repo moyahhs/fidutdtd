@@ -1085,13 +1085,6 @@ end)
     loadstring(game:HttpGet("https://pastebin.com/raw/5fKvum70"))()
   end
 })
-
-Tab:AddButton({
-  Name = "hua-自然灾害",
-  Callback = function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/5fKvum70"))()
-  end
-})
      
 local UITab21 = win:Tab("『极速传奇』",'16060333448')
 
